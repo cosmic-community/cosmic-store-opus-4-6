@@ -29,6 +29,11 @@ export default function Footer() {
                   Categories
                 </Link>
               </li>
+              <li>
+                <Link href="/contact" className="text-sm text-gray-500 hover:text-gray-900 transition-colors">
+                  Contact
+                </Link>
+              </li>
             </ul>
           </div>
           <div>

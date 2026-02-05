@@ -37,6 +37,12 @@ export default function Header() {
             >
               Categories
             </Link>
+            <Link
+              href="/contact"
+              className="text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors"
+            >
+              Contact
+            </Link>
           </nav>
 
           {/* Mobile toggle */}
@@ -99,6 +105,13 @@ export default function Header() {
             className="px-4 py-3 text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 rounded-lg transition-colors"
           >
             Categories
+          </Link>
+          <Link
+            href="/contact"
+            onClick={() => setMobileOpen(false)}
+            className="px-4 py-3 text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 rounded-lg transition-colors"
+          >
+            Contact
           </Link>
         </nav>
       </div>
